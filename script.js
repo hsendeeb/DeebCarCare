@@ -9,8 +9,8 @@ $(document).ready(function (){
             "animate__animated animate__fadeInRight"
         );
     },{offset:"80%"});
-    $("#insideCarWash").waypoint(function (){
-        $("#insideCarWash").addClass(
+    $("#carouselExampleIndicators").waypoint(function (){
+        $("#carouselExampleIndicators").addClass(
             "animate__animated animate__zoomIn"
         );
     },{offset:"80%"});
