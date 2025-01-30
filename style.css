@@ -48,10 +48,10 @@ body{
 
 
 
-.col-md-4,#location,#carouselExampleIndicators,#deebcarcare{
+.col-md-3,#location,#carouselExampleIndicators,#deebcarcare{
     opacity: 0;
 }
-.col-md-4.animate__animated,#location.animate__animated,#carouselExampleIndicators.animate__animated,#deebcarcare.animate__animated{
+.col-md-3.animate__animated,#location.animate__animated,#carouselExampleIndicators.animate__animated,#deebcarcare.animate__animated{
     opacity: 1;
 }
 .card {
