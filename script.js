@@ -1,6 +1,6 @@
 $(document).ready(function (){
-    $(".col-md-4").waypoint(function (){
-        $(".col-md-4").addClass(
+    $(".col-md-3").waypoint(function (){
+        $(".col-md-3").addClass(
             "animate__animated animate__fadeInLeft"
         );
     },{offset:"80%"});
