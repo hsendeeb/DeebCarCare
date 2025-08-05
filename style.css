@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 90vh;
+    background-image: url("img/carwash.jpg");
+    position: relative;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.text{ 
+    
+    color: white;
+    padding: 30px;  
+}
+@media only screen and (max-width:600px){
+    .carousel-inner{
+    max-height: 80vh;
+    
+}
+.carousel-inner img{
+    height: 400px;
+    object-fit: cover;
+}
+}
+@media only screen and (min-width:700px){
+    .carousel-inner{
+    max-height: 80vh;
+    
+}
+.carousel-inner img{
+    height: 700px;
+    object-fit: cover;
+}
+}
+
+
+
+.col-md-3,#location,#carouselExampleIndicators,#deebcarcare{
+    opacity: 0;
+}
+.col-md-3.animate__animated,#location.animate__animated,#carouselExampleIndicators.animate__animated,#deebcarcare.animate__animated{
+    opacity: 1;
+}
+.card {
+    transition: all 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+#footer{
+    background-image: url("img/footer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
